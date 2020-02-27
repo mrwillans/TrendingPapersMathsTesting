@@ -33,6 +33,7 @@ public class ExponentialFit {
 
         PolynomialCurveFitter fitter = PolynomialCurveFitter.create(1);
         double[] coeff = fitter.fit(obs.toList());
+        coeff[0]=Math.exp(coeff[0]);
 
         System.out.println("Equation of form ln(y) = ln(A) + bx");
         System.out.println("Gives parameters of y = Ae^(bx)");

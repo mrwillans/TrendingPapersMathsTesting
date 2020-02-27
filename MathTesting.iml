@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="org.webjars.bower:github-com-arichnad-apache-commons-math-interpolation-typescript:0.0.1" level="application" />
     <orderEntry type="library" name="org.apache.commons:commons-math3:3.6.1" level="application" />
+    <orderEntry type="library" name="org.json:json:20190722" level="application" />
   </component>
 </module>
